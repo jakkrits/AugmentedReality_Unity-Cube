@@ -119,7 +119,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pupMaterial
+  m_Name: stonesMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -132,7 +132,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3f2cb2e95ae2463b9dd9dbd9ca13e8e9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 58f52ecd2adf4ee9b95eba0dea26194b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -232,15 +232,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: pup
+  mTrackableName: stones
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: QCAR/IOTAR.xml
   mExtendedTracking: 0
-  mAspectRatio: 0.74957263
+  mAspectRatio: 0.7
   mImageTargetType: 0
   mWidth: 5
-  mHeight: 3.7478633
+  mHeight: 3.5
 --- !u!4 &47927818
 Transform:
   m_ObjectHideFlags: 0
@@ -336,7 +336,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.37478632}
+      m_Extent: {x: 0.5, y: 0, z: 0.35}
   m_Shapes:
     vertices: []
     shapes: []
@@ -389,7 +389,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000fee3bfbe000000000000803f000000000000000000000000000000bf00000000fee3bf3e000000000000803f00000000000000000000803f0000003f00000000fee3bfbe000000000000803f000000000000803f000000000000003f00000000fee3bf3e000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf000000003333b3be000000000000803f000000000000000000000000000000bf000000003333b33e000000000000803f00000000000000000000803f0000003f000000003333b3be000000000000803f000000000000803f000000000000003f000000003333b33e000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -526,13 +526,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1315637440}
-  m_LocalRotation: {x: -0, y: -0, z: 0.32479325, w: 0.9457851}
-  m_LocalPosition: {x: -0.04, y: 1.46, z: 0.05}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.04, y: 1, z: 0}
   m_LocalScale: {x: 1.2757202, y: 2.0996737, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 37.906002}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1833976869
 GameObject:
   m_ObjectHideFlags: 0
